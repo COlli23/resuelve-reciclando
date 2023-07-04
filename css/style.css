@@ -1,0 +1,106 @@
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    height: 120px;
+    background-color: #fbbc02;
+}
+.logo{
+    position: absolute;
+    width: 180px;
+    top: 5%;
+    left: 2%;
+}
+img{
+    width: 100%;
+}
+span{
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+.productos{
+    position: absolute;
+    width: auto;
+    font-size: 20px;
+    bottom: 5%;
+    left: 2%;
+}
+.cliente{
+    position: absolute;
+    width: auto;
+    font-size: 20px;
+    bottom: 5%;
+    right: 2%;
+}
+main{
+    height: auto;
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+}
+header a:hover{
+    color: white;
+}
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    width: 100%;
+}
+.ofertas article{
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+article img{
+    width: 100%;
+    border-radius: 5%;
+}
+article img:hover{
+    opacity: .6;
+}
+article p{
+    font-weight:bold;
+}
+article .compra{
+    border: none;
+    border-radius: 15%;
+    width: 40%;
+    height: 30px;
+    background-color: rgb(24, 93, 184);
+    color: white;
+}
+.destacados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 50%;
+}
+.destacados article{
+    border: 1px solid gray;
+    border-radius: 5%;
+    height: 70%;
+}
+
+.destacados article{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 350px;
+}
+.destacados article img{
+    justify-self: center;
+    width: auto;
+}
+.destacados article p{
+    position: absolute;
+    align-self: center;
+}

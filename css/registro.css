@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #fbbc02;
+}
+main{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 5%;
+    width: 300px;
+    padding: 60px 30px;
+    background-color: #fff;
+}
+img{
+    width: 120px;
+    align-self: center;
+}
+h1{
+    align-self: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+input{
+    position: absolute;
+    right: 30px;
+}
+.boton{
+    position: absolute;
+    left: 30px;
+    border: none;
+    height: 30px;
+    background-color: rgb(84, 10, 180);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
